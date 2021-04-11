@@ -3,6 +3,7 @@ package Entities;
 import utils.FiguraGeometrica;
 
 public class Retangulo extends FiguraGeometrica {
+
     private int altura;
     private int largura;
 
@@ -22,9 +23,23 @@ public class Retangulo extends FiguraGeometrica {
 
     @Override
     public String toString() {
-        return "Retangulo{" +
-                "altura=" + altura +
-                ", largura=" + largura +
-                '}';
+        return "O Retângulo criado tem altura= " + this.altura +
+                " e largura de tamanho: " + this.largura;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    public int getLargura() {
+        return largura;
+    }
+
+    public void setLargura(int largura) {
+        this.largura = largura;
     }
 }

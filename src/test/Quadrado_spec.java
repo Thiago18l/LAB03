@@ -2,7 +2,8 @@ package test;
 
 import Entities.Quadrado;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 public class Quadrado_spec {
     Quadrado quadrado = new Quadrado(2);

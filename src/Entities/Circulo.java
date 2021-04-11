@@ -22,8 +22,14 @@ public class Circulo extends FiguraGeometrica {
 
     @Override
     public String toString() {
-        return "Circulo{" +
-                "raio=" + raio +
-                '}';
+        return "O circulo criado tem raio de tamanho: " + this.raio;
+    }
+
+    public int getRaio() {
+        return raio;
+    }
+
+    public void setRaio(int raio) {
+        this.raio = raio;
     }
 }
